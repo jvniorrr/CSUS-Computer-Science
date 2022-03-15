@@ -1,4 +1,4 @@
-public class CoinConvertMendozaHelper {
+public class CoinConvertLastHelper {
     
     /* 
      * Function: coinsConvert
