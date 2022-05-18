@@ -8,4 +8,4 @@ _Repo of my works for some of my courses at CSUS. Work in progress as I take cou
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/jvniorrr/CSUS-Computer-Science/blob/main/LICENSE)
