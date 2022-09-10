@@ -88,7 +88,7 @@ class Payroll {
 
 }
 
-public class PayrollMendoza {
+public class PayrollLast {
     public static void main(String[] args) {
         /* uncomment  the provided code below */
         System.out.println("Creating payroll objects");
