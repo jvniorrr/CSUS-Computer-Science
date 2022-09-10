@@ -8,7 +8,7 @@ Date Program Created: 02/06/22
 // import Scanner and Random objects
 import java.util.*;
 
-public class MatchingGameMendoza {
+public class MatchingGameLast {
     public static void main(String[] args) {
         // create Scanner obj & Random obj
         Scanner kb = new Scanner(System.in);

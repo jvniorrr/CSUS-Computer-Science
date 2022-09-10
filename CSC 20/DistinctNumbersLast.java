@@ -8,7 +8,7 @@ Date Program Created: 1/31/22
 // import modules for Scanner
 import java.util.*;
 
-public class DistinctNumbersMendoza {
+public class DistinctNumbersLast {
     public static void main(String[] args) {
         System.out.println("Welcome to the distinct numbers.\nI will remove the repeated numbers and display the numbers you just entered.");
     

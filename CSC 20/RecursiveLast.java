@@ -10,7 +10,7 @@ Date Program Created: 05/02/22
 
 import java.util.*;
 
-public class RecursiveMendoza {
+public class RecursiveLast {
 
     public static class Driver {
         public static void main(String[] args) {
@@ -34,11 +34,11 @@ public class RecursiveMendoza {
             System.out.println("\ntesing the equals method on the strings");
             String s1 = "hello";
             String s2 = "helloo";
-            System.out.println("are the strings " + s1 + " and " + s2 + " equal? " + RecursiveMendoza.equals(s1, s2, 0));
+            System.out.println("are the strings " + s1 + " and " + s2 + " equal? " + RecursiveLast.equals(s1, s2, 0));
 
             s1 = "tomorrow";
             s2 = "tomorrow";
-            System.out.println("are the strings " + s1 + " and " + s2 + " equal? " + RecursiveMendoza.equals(s1, s2, 0));
+            System.out.println("are the strings " + s1 + " and " + s2 + " equal? " + RecursiveLast.equals(s1, s2, 0));
 
             System.out.println("\ntesting the sum of the integers in a link list");
             LinkedList<Integer> list = new LinkedList<Integer>();

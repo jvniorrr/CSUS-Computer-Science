@@ -9,7 +9,7 @@ Date Program Created: 04/01/22
 */
 import java.util.*;
 
-public class BookAppMendoza {
+public class BookAppLast {
 
     // book object
     public static class Book implements Comparable {

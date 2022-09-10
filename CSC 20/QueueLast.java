@@ -11,7 +11,7 @@ Date Program Created: 04/29/22
 // import modules
 import java.util.*;
 
-public class QueueMendoza {
+public class QueueLast {
 
     // QUEUE OBJECT
     public static class Queue {

@@ -7,7 +7,7 @@ Date Program Created: 02/14/22
 // import date object
 import java.util.*;
 
-public class DocumentMendoza {
+public class DocumentLast {
     
 }
 

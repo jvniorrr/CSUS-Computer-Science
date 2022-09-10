@@ -366,6 +366,6 @@ class SocialMedia{
 }
 
 
-public class InstaLastName {
+public class InstaLast {
     
 }

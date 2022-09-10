@@ -10,7 +10,7 @@ Date Program Created: 04/14/22
 
 import java.util.*;
 
-public class StackMendoza {
+public class StackLast {
 
     public interface myStack {
         public void push(String s);
