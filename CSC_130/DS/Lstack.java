@@ -10,7 +10,7 @@ class Lstack {
     }
 
     public Lstack() {
-        int = null;
+        top = null;
         n = 0;
     }
 
