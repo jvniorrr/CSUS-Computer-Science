@@ -19,7 +19,6 @@ done
 
 
 # check if value is 1; 1 isnt prime -> ie.  2,3,5,7,... 
-
 prime=true
 if ((value == 1)) 
 then 
@@ -34,7 +33,7 @@ else
         fi
     done
 
-
+    # check if our flag var is false; meaning it has some divisor = 0.
     if [[ $prime == false ]]
     then
         echo "$value is not a prime number."
