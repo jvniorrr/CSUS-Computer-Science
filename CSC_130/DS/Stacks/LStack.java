@@ -1,5 +1,10 @@
-class Lstack {
+package Stacks;
 
+/**
+ * Linked List implementation in a Stack DS.
+ */
+public class LStack {
+    
     // fields
     private Node top; // Top of stack
     private int n; // how many items in stakc
@@ -9,7 +14,7 @@ class Lstack {
         Node next;
     }
 
-    public Lstack() {
+    public LStack() {
         top = null;
         n = 0;
     }
