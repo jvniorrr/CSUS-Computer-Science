@@ -9,7 +9,7 @@ public class LinkQueue {
     private Node tail;
     private int n;
     
-
+    // Subclass
     private class Node {
         int item;
         Node next;
@@ -38,7 +38,7 @@ public class LinkQueue {
 
     public int dequeue() {
         // check if our queue is not empty
-        if (n == 0) return -1;
+        if (n == 0)     return -1;
 
         // return the old head object and set a new head object once removed.
         int item = head.item;
@@ -56,7 +56,9 @@ public class LinkQueue {
      * @return Int value at top of queue
      */
     public int peek() {
-        if (n == 0) return -1; // error code
+        if (n == 0) {
+            return -1; // error code
+        }
         return head.item;
     }
 

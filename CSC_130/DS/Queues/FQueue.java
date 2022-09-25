@@ -1,7 +1,8 @@
 package Queues;
 
 /**
- * Queue DS using basic array.
+ * Fixed-Size Queue DS using basic array.
+ * Generally want to use LinkedLists for these DS though. 
  */
 public class FQueue {
     
@@ -53,7 +54,7 @@ public class FQueue {
     public int dequeue() {
         // does checking as well but references the head
 
-        if (isEmpty() ) return -1; // assure we arent empty to not return errors
+        if (isEmpty() ) return -1; // assure we arent empty to not return errors;
 
         // reference the return item
         int ret = a[head];
@@ -71,7 +72,7 @@ public class FQueue {
 
     public int peek() {
         if (isEmpty() ) {
-            return -1; // error code
+            return -1; // Set error code
         }
 
         return a[head];
