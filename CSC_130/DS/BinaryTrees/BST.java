@@ -138,11 +138,13 @@ public class BST {
         q = new LinkedList<Integer>();
         inorder(root);
 
+        final int qSize = q.size();
+
         while (!q.isEmpty()) {
             ret += q.remove() + ",";
         }
-
-        ret = ret.substring(0, ret.length() - 1);
+        if (qSize > 0)
+            ret = ret.substring(0, ret.length() - 1);
 
         ret += "]";
 
