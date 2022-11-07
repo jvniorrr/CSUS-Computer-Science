@@ -1,3 +1,4 @@
 
 *.out
 CSC 60/.vscode/tasks.json
+.DS_Store
