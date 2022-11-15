@@ -2,10 +2,10 @@ package HashMaps;
 
 import java.util.LinkedList;
 
+// Our implementation of linked lists catered towards being used in has tables
 public class HashChain {
 
     // Fields
-
     private LinkedList<Node> chain;
 
     private class Node {

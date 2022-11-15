@@ -18,7 +18,7 @@ public class HashTest{
 
            hash.clear();
 
-           System.out.println(hash.toString());              // View the Hashmap
+           System.out.println("Hash map: " + hash.toString());              // View the Hashmap
 
            System.out.println(hash.isEmpty());
 

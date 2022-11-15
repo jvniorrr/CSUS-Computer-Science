@@ -2,7 +2,7 @@ package HashMaps;
 
 import java.util.HashMap;
 
-public class HashMapMain {
+public class Main {
     public static void main(String[] args) {
         // For the API...
 
