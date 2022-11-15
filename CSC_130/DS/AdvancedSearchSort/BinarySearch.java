@@ -5,6 +5,8 @@ public class BinarySearch {
 
     }
 
+
+    /** Returns the index of the matching value (or -1 if not found) */
     public static int binarySearch(int a[], int val) {
 
         int start = 0;

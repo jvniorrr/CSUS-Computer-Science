@@ -7,12 +7,12 @@ public class SelectionSort {
 
     /**
      * Selection sort is not considered an optimal sorting algorithm though.
-     * Selection sort has a O(n * n/2) time efficiency.
+     * Selection sort has a O(n * n/2) time efficiency. (less efficient than others)
      */
     public static void selectionSort(int[] a) {
         for (int j = 0; j < a.length - 1; j++) {
             for (int i = j + 1; i < a.length; i++) {
-                if (a[j] > a[i]) {
+                if (a[j] > a[i]) { // a[i] < a[j]
                     int swap = a[j];
                     a[j] = a[i];
                     a[i] = swap;
