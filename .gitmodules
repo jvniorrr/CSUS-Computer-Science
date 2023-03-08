@@ -1,3 +1,6 @@
 [submodule "CSC 135"]
 	path = CSC 135
 	url = https://github.com/jvniorrr/CSC-135
+[submodule "CSC_130/Project"]
+	path = CSC_130/Project
+	url = https://github.com/jvniorrr/CSC130_Final.git
