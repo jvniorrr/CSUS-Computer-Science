@@ -1,0 +1,20 @@
+1. iPtr1 = &x;
+2. printf("%d", *iPtr1);
+3. iPtr2 = iData;
+4. Prints 4300
+5. Prints 4400
+6. Prints 4600
+7. Prints 200
+8. Prints 4100
+9. Prints 4100
+10. Prints 450
+11. Prints 4600
+12. Prints 4600
+13. No you cant increment an array like that
+14. It is not correct. No. You cant assign an array like this it.
+15. It is terribly wrong because the data 10 is stored into the pointer variable. This means extraPtr would be pointing to the address 10 which may be the memory in the kernel space and would result in a system error and the program crashing.
+16. This is incorrect because we never dereference the pointer's address. In order to store the address of a variable, we must dereference the pointer variable, specifically in the initialization.
+17. No, we cant store values into a pointer it has to be a memory address. We need the address operator (&).
+18. This statement is good, because we both dereference the pointer and we utilize the address operator (&) to return the address of its operand, in this case the variable sh.
+19. The value of numData[8] is 0 because values are auto initialized to 0, those that aren't assigned.
+20. I believe the program may run initially but it may cause issues in the future as when we add 20, we are getting out of the arrays memory address bounds and thus when we create a different value it could effect this as we have a pointer assigned to this address. NumPtr though would just be 0 until we set a new value into that memory address.
